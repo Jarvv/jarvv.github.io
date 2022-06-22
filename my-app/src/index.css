@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --dark-blue: #01004c;
+  --blue: #0264d1;
+  --peach: #ff8e8a;
+  --dark-pink: #c2007f;
+
+  --grey: #8b8b8b;
+
+  --regular: 'TitilliumWeb-Regular', sans-serif;
+  --bold: 'TitilliumWeb-Bold', sans-serif;
+  --light: 'TitilliumWeb-Light', sans-serif;
+}
+
+html {
+  cursor: none !important;
+}
+
+a {
+  cursor: none !important;
+  text-decoration: none;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+body {
+  color: var(black);
+  background-color: var(white);
+  overflow: hidden;
+}
+
+#pointer-ring {
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 15px;
+  border: 2px solid black;
+  position: absolute;
+  border-radius: 100px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+body {
+  font-family: var(--regular);
+}
