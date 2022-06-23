@@ -10,10 +10,11 @@ import Rig from './three/Rig.jsx';
 import Bg from './three/Bg.jsx';
 import Ground from './three/Ground.jsx';
 
-
 import Layout from './components/Layout/Layout';
 import About from './pages/About/About';
 import Preloader from './pages/preloader/Preloader';
+import WebAR from './pages/WebAR/WebAR';
+import UnityAR from './pages/UnityAR/UnityAR';
 
 const ThreeRoutes = (location) => {
   return (
@@ -26,10 +27,10 @@ const ThreeRoutes = (location) => {
             <About/>
           </Route>
           <Route path="/unityar">
-            <About/>
+            <UnityAR/>
           </Route>
           <Route path="/webar">
-            <About/>
+            <WebAR/>
           </Route>
         </Switch>   
     </a.group>

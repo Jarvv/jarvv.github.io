@@ -9,7 +9,7 @@ import Caption from '../../three/Caption.jsx';
 const About = () => {
     return (
         <>
-            <group position={[0, 3, 0]}>
+            <group position={[0, 2, 0]}>
                 <Caption>
                     {
                     `
