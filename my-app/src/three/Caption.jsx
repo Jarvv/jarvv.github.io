@@ -8,7 +8,7 @@ function Caption({ children }) {
       <Text
         lineHeight={1.2}
         font='./fonts/TitilliumWeb-Regular.ttf'
-        fontSize={width / 40}
+        fontSize={width / 80}
         material-toneMapped={false}
         textAlign="center"
         anchorX="center"

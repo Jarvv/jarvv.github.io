@@ -21,7 +21,7 @@ const Preloader = () => {
                         About
                     </Caption>
                 </group>
-                <Pyramid  scale={0.5} linkTo="/intro" />
+                <Pyramid  scale={0.5} linkTo="/about" />
             </group>
             
             <group position={[0, 0, 0]}>
@@ -30,7 +30,7 @@ const Preloader = () => {
                         Unity AR
                     </Caption>
                 </group>
-                <Pyramid  scale={0.5} linkTo="/unity" />
+                <Pyramid  scale={0.5} linkTo="/unityar" />
             </group>
           
             <group position={[2, 0, 0]}>
