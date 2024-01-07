@@ -12,6 +12,12 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      boxShadow: {
+        card: "0px 35px 60px -15px #01004c",
+      },
+      screens: {
+        xs: "450px",
+      },
     },
   },
   plugins: [],

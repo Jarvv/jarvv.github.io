@@ -1,9 +1,11 @@
 import Hero from "./Hero";
-import Layout from "./Layout";
 import Navbar from "./Navbar";
+import About from "./About";
+import Experience from "./Experience";
 
 export {
     Hero,
-    Layout,
-    Navbar
+    Navbar,
+    About,
+    Experience
 }
