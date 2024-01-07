@@ -12,3 +12,7 @@
     font-family: TitilliumWeb-Light;
     src: url('./fonts/TitilliumWeb-Light.ttf');
 }
+
+html, body {
+    height: 100%;
+}
