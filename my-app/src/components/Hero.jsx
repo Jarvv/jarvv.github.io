@@ -1,3 +1,5 @@
+import { hero } from "../const";
+
 const Hero = () => {
     return (
         <section className="relative w-full h-screen mx-auto">
@@ -7,8 +9,8 @@ const Hero = () => {
                     <div className="w-1 sm:h-80 h-40 line-gradient" />
                 </div>
                 <div>
-                    <h1 className="text-secondary lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">Hi I'm <span className="text-tertiary">James</span></h1>
-                    <p className="text-secondary font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]"> I develop Unity and Web XR applications.</p>
+                    <h1 className="text-secondary lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">Hi I'm <span className="text-tertiary">{hero.name}</span></h1>
+                    <p className="text-secondary font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]">{hero.about}</p>
                 </div>
             </div>
             
