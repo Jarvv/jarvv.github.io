@@ -7,6 +7,9 @@ import arcade from "./arcade.png"
 import react from "./reactjs.png"
 import sheffield from "./sheffield.png"
 import next from "./nextjs.png"
+import github from "./github.svg"
+import openformat from "./openformat.jpg"
+import rituals from "./rituals.jpg"
 
 export {
     logo,
@@ -17,5 +20,8 @@ export {
     arcade,
     react,
     sheffield,
-    next
+    next,
+    github,
+    openformat,
+    rituals
 }

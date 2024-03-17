@@ -83,6 +83,69 @@ body {
   background: -webkit-linear-gradient(-90.13deg, #3df4de 1.9%, #c2007f 97.5%);
 }
 
+.black-gradient {
+  background: #000000; 
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  );
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  );
+}
+
+
+.green-text-gradient {
+  background: #11998e;
+  background: -webkit-linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  );
+  background: linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  );
+  background: linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
+  background: var(--dark-pink);
+  background: -webkit-linear-gradient(
+    to top,
+    var(--dark-pink),
+    #fc6767
+  );
+  background: linear-gradient(
+    to top,
+    var(--dark-pink),
+    #fc6767
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
