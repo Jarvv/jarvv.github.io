@@ -1,7 +1,10 @@
 import {
     unity,
     webAR,
-    arcade
+    arcade,
+    sheffield,
+    react,
+    next
 } from "./assets"
 
 const navLinks = [
@@ -21,7 +24,7 @@ const navLinks = [
 
 const hero = {
   name: "James",
-  about: `I'm a developer of all things Spatial. Specialising in crafting immersive, playful experiences that leverage AR/MR/XR technologies through headsets, native apps and the web. Passionate about redefining how we play and interact with the world around us, combining techinical expertise with a creative vision to deliver enaging solutions for brands, sports, heritage and more.`
+  about: `I’m a developer specialising in creating immersive experiences through AR/MR/XR technologies, redefining how we interact and play within the world around us. I have a proven track record of delivering engaging solutions across various sectors, including brands, sports, and cultural institutions.`
 }
 
 const skills = [
@@ -33,33 +36,49 @@ const skills = [
         title: "WebAR Developer",
         icon: webAR,
     },
+    {
+      title: "Frontend Developer",
+      icon: react,
+    },
+    {
+      title: "Next.js Developer",
+      icon: next,
+    },
 ];
 
 const experiences = [
     {
       title: "Senior AR Developer",
-      company_name: "ARCADE Ltd",
+      company_name: "ARCADE",
       icon: arcade,
       iconBg: "#3df4de",
       date: "August 2021 - Current",
       points: [
-        "Unity.",
-        "Design patterns.",
-        "Led the implememtation of CI/CD workflows through GitHub Actions for web and Unity projects, improving deployment efficiency and code quality..",
+        "Led the implementation of CI/CD workflows for web and Unity projects, improving deployment efficiency and code quality.",
         "Played a vital role in the integration of external AR frameworks to new and existing native and web apps.",
-        "Actively mentored junior developers, encourageing participation through code reviews and fostering a culture of continuous improvements and code ownership.",
+        "Actively mentored junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.",
       ],
     },
     {
       title: "AR Developer",
-      company_name: "ARCADE Ltd",
+      company_name: "ARCADE",
       icon: arcade,
       iconBg: "#c2007f",
       date: "August 2019 - August 2021",
       points: [
-        "Developed a suite of in-house development tools following industry standard designs patterns for emerging Unity AR and UI packages.",
-        "Published WebAR projects through a variety of platforms and frameworks, including 8thWall and Zappar. ",
-        "Embraced continuous learning, rapidly adapting to new technologies and methodoligies, crucial for the startup's initial growth and success in shaping the development team.",
+        "Developed a suite of in-house development tools following industry standard design patterns for emerging Unity AR and UI packages.",
+        "Published WebAR projects through a variety of platforms and frameworks, including 8thWall and Zappar.",
+        "Embraced continuous learning, rapidly adapting to new technologies and methodologies, crucial for the startup’s initial growth and success in shaping the development team.",
+      ],
+    },
+    {
+      title: "SURE",
+      company_name: "University of Sheffield",
+      icon: sheffield,
+      iconBg: "#3df4de",
+      date: "June 2018 - September 2018",
+      points: [
+        "Worked collaboratively across a multi-departmental team to create various AR/VR applications that were used in University of Sheffield’s Festival of the Mind exhibition.",
       ],
     },
   ];

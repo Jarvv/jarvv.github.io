@@ -50,28 +50,28 @@ const init_pointer = (options) => {
     }
 
     const render = () => {
-        ringX = trace(ringX, mouseX, 0.2)
-        ringY = trace(ringY, mouseY, 0.2)
-
+        ringX = trace(ringX, mouseX, 0.2);
+        ringY = trace(ringY, mouseY + window.scrollY, 0.2); // Add vertical scroll offset here
+    
         if (document.querySelector(".p-action-click:hover")) {
-            pointer.style.borderColor = getOption("pointerColor")
-            isHover = true
+            pointer.style.borderColor = getOption("pointerColor");
+            isHover = true;
         } else {
-            pointer.style.borderColor = "white"
-            isHover = false
+            pointer.style.borderColor = "white";
+            isHover = false;
         }
-        ring.style.borderColor = getOption("pointerColor")
+        ring.style.borderColor = getOption("pointerColor");
         if (mouseDown) {
-            ring.style.padding = getOption("ringClickSize") + "px"
+            ring.style.padding = getOption("ringClickSize") + "px";
         } else {
-            ring.style.padding = getOption("ringSize") + "px"
+            ring.style.padding = getOption("ringSize") + "px";
         }
-
-        pointer.style.transform = `translate(${mouseX}px, ${mouseY}px)`
-        ring.style.transform = `translate(${ringX - (mouseDown ? getOption("ringClickSize") : getOption("ringSize"))}px, ${ringY - (mouseDown ? getOption("ringClickSize") : getOption("ringSize"))}px)`
-
-        requestAnimationFrame(render)
-    }
+    
+        pointer.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+        ring.style.transform = `translate(${ringX - (mouseDown ? getOption("ringClickSize") : getOption("ringSize"))}px, ${ringY - (mouseDown ? getOption("ringClickSize") : getOption("ringSize"))}px)`;
+    
+        requestAnimationFrame(render);
+    };
     requestAnimationFrame(render)
 }
 

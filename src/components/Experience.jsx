@@ -12,8 +12,11 @@ const ExperienceCard = (props) => {
 
     return (
         <VerticalTimelineElement
-            contentStyle={{background: "#fff", color: "#01004c"}}
-            contentArrowStyle={{borderRight: "7px solid #232631"}}
+            contentStyle={{
+                background: "#1d1836",
+                color: "#fff",
+            }}
+            contentArrowStyle={{borderRight: "7px solid  #232631"}}
             date={experience.date}
             iconStyle={{background: experience.iconBg}}
             icon={
@@ -27,8 +30,8 @@ const ExperienceCard = (props) => {
             }
         >
             <div>
-                <h3 className='text-tertiary text-[24px] font-bold'>{experience.title}</h3>
-                <p className='text-secondary text-[16ox] font-semibold' style={{margin: 0}}>{experience.company_name}</p>
+                <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+                <p className='text-white text-[16ox] font-semibold' style={{margin: 0}}>{experience.company_name}</p>
             </div>
             <ul className="mt-5 list-disc ml-5 space-y-2">
                 {experience.points.map((point, index) => (
@@ -51,7 +54,7 @@ const Experience = () => {
             variants={textVariant()}
         >
             <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">What I have done so far</p>
-            <h2 className="text-tertiary md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"> Work Experience. </h2>
+            <h2 className="text-pink md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]"> Work Experience. </h2>
         </motion.div>
         <div className="mt-20 flex flex-col">
             <VerticalTimeline>
