@@ -8,7 +8,7 @@ import CanvasLoader from '../Loader'
 
 const rfs = THREE.MathUtils.randFloatSpread
 
-const Ball = ({ position, imgUrl }) => {
+const Ball = ({ imgUrl }) => {
     const vec = new THREE.Vector3()
     const [decal] = useTexture([imgUrl])
     const [ref, api] = useSphere(() => ({

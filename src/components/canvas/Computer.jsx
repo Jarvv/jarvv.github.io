@@ -4,6 +4,7 @@ import { Environment, Preload, useGLTF } from '@react-three/drei'
 import * as THREE from 'three'
 import { useSpring } from '@react-spring/core'
 import { a as three } from '@react-spring/three'
+import { a as web } from '@react-spring/web'
 
 const Computer = ({ open, hinge, ...props }) => {
     const group = useRef()
@@ -67,28 +68,40 @@ const Computer = ({ open, hinge, ...props }) => {
 }
 
 const ComputerCanvas = () => {
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
     const props = useSpring({ open: Number(open) })
 
     return (
-        <Canvas dpr={[1, 2]} camera={{ position: [0, 0, -30], fov: 35 }}>
-            <three.pointLight
-                position={[10, 10, 10]}
-                intensity={1.5}
-                color={props.open.to([0, 1], ['#f0f0f0', '#d25578'])}
-            />
-            <Suspense fallback={null}>
-                <group
-                    rotation={[0, Math.PI, 0]}
-                    onClick={(e) => (e.stopPropagation(), setOpen(!open))}
-                >
-                    <Computer open={open} hinge={props.open.to([0, 1], [1.575, -0.425])} />
-                </group>
-                <Environment preset='city' />
-            </Suspense>
-            <Preload all />
-        </Canvas>
+        <web.div className={'relative w-full h-full'}>
+            <web.h1
+                className={'absolute font-normal text-[3em] left-2/4 top-3/4 text-secondary'}
+                style={{
+                    opacity: props.open.to([0, 1], [1, 0]),
+                    transform: props.open.to((o) => `translate3d(-50%,${o * 50 - 100}px,0)`),
+                }}
+            >
+                click
+            </web.h1>
+            <Canvas dpr={[1, 2]} camera={{ position: [0, 0, -30], fov: 35 }}>
+                <three.pointLight
+                    position={[10, 10, 10]}
+                    intensity={1.5}
+                    color={props.open.to([0, 1], ['#f0f0f0', '#d25578'])}
+                />
+
+                <Suspense fallback={null}>
+                    <group
+                        rotation={[0, Math.PI, 0]}
+                        onClick={(e) => (e.stopPropagation(), setOpen(!open))}
+                    >
+                        <Computer open={open} hinge={props.open.to([0, 1], [1.575, -0.425])} />
+                    </group>
+                    <Environment preset='city' />
+                </Suspense>
+                <Preload all />
+            </Canvas>
+        </web.div>
     )
 }
 

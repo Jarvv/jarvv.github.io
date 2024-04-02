@@ -1,4 +1,15 @@
-import { unity, webAR, arcade, sheffield, react, next, openformat, rituals, github } from './assets'
+import {
+    unity,
+    webAR,
+    arcade,
+    sheffield,
+    react,
+    next,
+    openformat,
+    rituals,
+    github,
+    editor,
+} from './assets'
 
 const navLinks = [
     {
@@ -21,7 +32,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I’m a developer specialising in creating immersive experiences through AR/MR/XR technologies, redefining how we interact and play within the world around us. I have a proven track record of delivering engaging solutions across various sectors, including brands, sports, and cultural institutions.`,
+    about: `I'm a developer specialising in creating immersive experiences through AR/MR/XR technologies, redefining how we interact and play within the world around us. I have a proven track record of delivering engaging solutions across various sectors, including brands, sports, and cultural institutions.`,
 }
 
 const skills = [
@@ -83,10 +94,11 @@ const experiences = [
 const projects = [
     {
         name: 'Web 2.9',
-        description: '',
+        description:
+            'Using Web3 technologies through the OpenFormat SDK to authenticate users to a Web 2 backend via their wallet.',
         tags: [
             {
-                name: 'react',
+                name: 'reactjs',
                 color: 'blue-text-gradient',
             },
             {
@@ -104,14 +116,15 @@ const projects = [
     },
     {
         name: 'Unity MVVM',
-        description: '',
+        description:
+            'An example AR furniture app, demonstrating how data binding can be implemented with UI Toolkit.',
         tags: [
             {
                 name: 'unity',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'c#',
+                name: 'c_sharp',
                 color: 'green-text-gradient',
             },
             {
@@ -119,16 +132,17 @@ const projects = [
                 color: 'pink-text-gradient',
             },
         ],
-        image: openformat,
-        source_code_link: 'https://github.com/Jarvv/mvcvm',
+        image: editor,
+        source_code_link: 'https://github.com/Jarvv/UI-Toolkit-MVVM',
         source_image: github,
     },
     {
         name: 'The Ritual Of Sakura',
-        description: '',
+        description:
+            'A brand activation built in the 8thWall editor for an in-store popup, featuring physics, particles, states and a robust UI <-> AR event system.',
         tags: [
             {
-                name: '8thwall',
+                name: '8thWall',
                 color: 'blue-text-gradient',
             },
             {
