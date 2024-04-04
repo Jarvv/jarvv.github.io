@@ -1,0 +1,18 @@
+@font-face {
+    font-family: TitilliumWeb-Regular;
+    src: url('./fonts/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url('./fonts/TitilliumWeb-Bold.ttf');
+}
+
+@font-face {
+    font-family: TitilliumWeb-Light;
+    src: url('./fonts/TitilliumWeb-Light.ttf');
+}
+
+html, body {
+    height: 100%;
+}

@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.d186c8d7.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.fa526bc9.css",
+    "main.js": "/static/js/main.2215348a.js",
+    "static/media/editor.png": "/static/media/editor.b7c500124e8682d3af2d.png",
+    "static/media/logo.jpg": "/static/media/logo.3b54437bed7886024a3b.jpg",
+    "static/media/8thwall.png": "/static/media/8thwall.e9ac601386c9f1ec6b92.png",
+    "static/media/sheffield.png": "/static/media/sheffield.73d90ea4df3a6d15b639.png",
+    "static/media/arcade.png": "/static/media/arcade.1b6b2e271fd9f9076fe0.png",
+    "static/media/rituals.jpg": "/static/media/rituals.d95018217db15569284b.jpg",
+    "static/media/openformat.jpg": "/static/media/openformat.2769eaba2305d506c2d0.jpg",
+    "static/media/unity.png": "/static/media/unity.f3599892e930ea1e3e45.png",
+    "static/media/nextjs.png": "/static/media/nextjs.70a93475e8c739b65181.png",
+    "static/media/close.svg": "/static/media/close.efebed8b1a7fa91ea0e56f2581654098.svg",
+    "static/media/menu.svg": "/static/media/menu.871b388e16ddf9f68a377b2c7507ed0d.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.d186c8d7.js.map": "/static/js/main.d186c8d7.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "static/media/github.svg": "/static/media/github.3b21c250a99986431958daaa9246a45a.svg",
+    "main.fa526bc9.css.map": "/static/css/main.fa526bc9.css.map",
+    "main.2215348a.js.map": "/static/js/main.2215348a.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d186c8d7.js"
+    "static/css/main.fa526bc9.css",
+    "static/js/main.2215348a.js"
   ]
 }
