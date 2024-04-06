@@ -32,7 +32,10 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I'm a developer specialising in creating immersive experiences through AR/MR/XR technologies, redefining how we interact and play within the world around us. I have a proven track record of delivering engaging solutions across various sectors, including brands, sports, and cultural institutions.`,
+    about: `I'm a developer specialising in creating immersive experiences through XR technologies,
+        redefining how we interact and play within the world around us. I have a proven track
+        record of delivering engaging solutions across various sectors, including brands, sports,
+        and cultural institutions.`,
 }
 
 const skills = [
@@ -62,9 +65,9 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'August 2021 - Current',
         points: [
-            'Led the implementation of CI/CD workflows for web and Unity projects, improving deployment efficiency and code quality.',
-            'Played a vital role in the integration of external AR frameworks to new and existing native and web apps.',
-            'Actively mentored junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.',
+            `Setup full CI/CD pipelines for web and Unity projects through both GitHub Actions and Unity Gaming Services using integrated testing frameworks and automated build processes. Improving code quality and deployment efficiency through frequent and reliable app updates.`,
+            `Actively mentored junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
+            `Led the integration of AR experiences through Unity as a Library for existing client applications, collaborating with external developers implementing plugins for seamless integration.`,
         ],
     },
     {
@@ -74,9 +77,9 @@ const experiences = [
         iconBg: '#c2007f',
         date: 'August 2019 - August 2021',
         points: [
-            'Developed a suite of in-house development tools following industry standard design patterns for emerging Unity AR and UI packages.',
-            'Published WebAR projects through a variety of platforms and frameworks, including 8thWall and Zappar.',
-            'Embraced continuous learning, rapidly adapting to new technologies and methodologies, crucial for the startup’s initial growth and success in shaping the development team.',
+            `Created in-house development tools utilising industry standard design patterns for Unity AR and UI to unify and simplify the development process, enhancing the team's ability for collaboration.`,
+            `Published WebAR projects through 8thWall and ZapWorks, combining frontend expertise with Three.js libraries for physics, particles and shaders.`,
+            `Embraced continuous learning, rapidly adapting to new technologies and methodologies, crucial for the agency's initial growth and success in shaping the development team.`,
         ],
     },
     {
@@ -86,7 +89,7 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'June 2018 - September 2018',
         points: [
-            'Worked collaboratively across a multi-departmental team to create various AR/VR applications that were used in University of Sheffield’s Festival of the Mind exhibition.',
+            `Worked across a multi-departmental team to create various AR/VR that were used in the University's Festival of the Mind exhibition.`,
         ],
     },
 ]

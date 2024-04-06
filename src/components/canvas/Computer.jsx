@@ -75,7 +75,7 @@ const ComputerCanvas = () => {
     return (
         <web.div className={'relative w-full h-full'}>
             <web.h1
-                className={'absolute font-normal text-[3em] left-2/4 top-3/4 text-secondary'}
+                className={'absolute font-normal text-[3em] left-2/4 top-[70%] text-secondary'}
                 style={{
                     opacity: props.open.to([0, 1], [1, 0]),
                     transform: props.open.to((o) => `translate3d(-50%,${o * 50 - 100}px,0)`),
