@@ -32,7 +32,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I’m a developer specialising in creating immersive experiences through web and AR technologies, with a focus on full-stack development using React, Next.js and Typescript. Proven track record of delivering full-stack solutions for engaging web and AR solutions across various sectors, including brands, sports, and cultural institutions.`,
+    about: `I’m a developer specialising in creating immersive experiences through web and AR technologies, with a focus on full-stack development using React, Next.js and Typescript. Proven track record of delivering full-stack solutions across various sectors, including brands, sports, and cultural institutions.`,
 }
 
 const skills = [
@@ -113,6 +113,28 @@ const projects = [
         ],
         image: openformat,
         source_code_link: 'https://github.com/Jarvv/next-web2.9',
+        source_image: github,
+    },
+    {
+        name: 'Next Product Model Viewer',
+        description:
+            'An example ecommerce site in which users can upload products for users to view in 3D and AR on mobile.',
+        tags: [
+            {
+                name: 'supabase',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'prisma',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'nextjs',
+                color: 'pink-text-gradient',
+            },
+        ],
+        image: next,
+        source_code_link: 'https://github.com/Jarvv/next-product-viewer',
         source_image: github,
     },
     {
