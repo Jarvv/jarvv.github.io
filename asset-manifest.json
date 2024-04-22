@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e2f55f6a.css",
-    "main.js": "/static/js/main.37ec1052.js",
+    "main.js": "/static/js/main.112794a3.js",
     "static/media/editor.png": "/static/media/editor.b7c500124e8682d3af2d.png",
     "static/media/logo.jpg": "/static/media/logo.3b54437bed7886024a3b.jpg",
     "static/media/8thwall.png": "/static/media/8thwall.e9ac601386c9f1ec6b92.png",
@@ -11,15 +11,15 @@
     "static/media/openformat.jpg": "/static/media/openformat.2769eaba2305d506c2d0.jpg",
     "static/media/unity.png": "/static/media/unity.f3599892e930ea1e3e45.png",
     "static/media/nextjs.png": "/static/media/nextjs.70a93475e8c739b65181.png",
-    "static/media/close.svg": "/static/media/close.29c4070bea1290ff6d804a29e6215139.svg",
-    "static/media/menu.svg": "/static/media/menu.807ba0c70b4ac257a749b96b8a85cc1c.svg",
+    "static/media/close.svg": "/static/media/close.efebed8b1a7fa91ea0e56f2581654098.svg",
+    "static/media/menu.svg": "/static/media/menu.871b388e16ddf9f68a377b2c7507ed0d.svg",
     "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.3b21c250a99986431958daaa9246a45a.svg",
     "main.e2f55f6a.css.map": "/static/css/main.e2f55f6a.css.map",
-    "main.37ec1052.js.map": "/static/js/main.37ec1052.js.map"
+    "main.112794a3.js.map": "/static/js/main.112794a3.js.map"
   },
   "entrypoints": [
     "static/css/main.e2f55f6a.css",
-    "static/js/main.37ec1052.js"
+    "static/js/main.112794a3.js"
   ]
 }
