@@ -34,7 +34,7 @@ const Contact = () => {
                             Find Me On
                         </p>
                         <div className='flex flex-row gap-4 text-[1.5rem] text-secondary mt-4'>
-                            <a href='https://www.linkedin.com/in/james-harvey-896344172/'>
+                            <a href='https://www.linkedin.com/in/jamesdharvey/'>
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
                             <a href='https://github.com/Jarvv'>
