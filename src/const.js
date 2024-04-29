@@ -63,8 +63,8 @@ const experiences = [
         date: 'August 2021 - Current',
         points: [
             `Enabled CI/CD pipelines through GitHub Actions, reducing time to market for new features by facilitating frequent and reliable updates.`,
-            `Actively mentored 4 junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
-            `Played a key role in brand campaigns that reached over 130,000 users, enhancing RESTful API data retrieval speeds along critical paths which boosted user engagement time by 15%.`,
+            `Actively mentored 3 junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
+            `Played a key role in brand campaigns that reached over 130,000 users, optimising RESTful API data retrieval speeds along critical user paths increasing data capture rates by 15%.`,
             `Led the architecture and development of a Next.js and Web3 enabled full-stack application for AR-based trails, featuring wallet-based authentication and NFT based progress tracking.`,
         ],
     },
@@ -76,6 +76,7 @@ const experiences = [
         date: 'August 2019 - August 2021',
         points: [
             `Developed multiplayer browser games using React and Node.js, featuring real-time functionality with WebSockets and Redis for server-authoritative actions.`,
+            `Authored comprehensive documentation for projects and processes, facilitating seamless onboarding of new team members.`,
             `Collaborated with design and development teams on WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
             `Embraced continuous learning across new technologies and core business strategies, crucial for the agency's initial growth and instrumental in shaping the development team.`,
         ],
@@ -118,7 +119,7 @@ const projects = [
     {
         name: 'Next Product Model Viewer',
         description:
-            'An example ecommerce site in which users can upload products for users to view in 3D and AR on mobile.',
+            'An ecommerce site built using Next.js, Prisma, Tailwind and Stripe for payments. Allowing users to upload and view 3D models to view in 3D and AR.',
         tags: [
             {
                 name: 'supabase',
