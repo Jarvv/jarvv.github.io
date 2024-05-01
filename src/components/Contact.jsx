@@ -20,7 +20,7 @@ const Contact = () => {
                     Contact.
                 </h3>
 
-                <div className='flex flex-row align-middle justify-between mt-8'>
+                <div className='flex md:flex-row flex-col align-middle justify-between mt-8 gap-8'>
                     <div className='w-[50%]'>
                         <p className='sm:text-[18px] text-[14px]uppercase tracking-wider'>
                             Email Me At
