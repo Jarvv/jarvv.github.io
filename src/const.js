@@ -56,7 +56,7 @@ const skills = [
 
 const experiences = [
     {
-        title: 'Senior AR Developer (Full-Stack Focus)',
+        title: 'Senior Software Developer',
         company_name: 'ARCADE XR',
         icon: arcade,
         iconBg: '#3df4de',
@@ -69,7 +69,7 @@ const experiences = [
         ],
     },
     {
-        title: 'AR Developer',
+        title: 'Software Developer',
         company_name: 'ARCADE XR',
         icon: arcade,
         iconBg: '#c2007f',
