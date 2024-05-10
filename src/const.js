@@ -64,7 +64,7 @@ const experiences = [
         points: [
             `Enabled CI/CD pipelines through GitHub Actions, reducing time to market for new features by facilitating frequent and reliable updates.`,
             `Actively mentored 3 junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
-            `Played a key role in brand campaigns that reached over 130,000 users, optimising RESTful API data retrieval speeds along critical user paths increasing data capture rates by 15%.`,
+            `Designed and implemented custom and third-party APIs for native Unity applications, focusing on content management and data operations.`,
             `Led the architecture and development of a Next.js and Web3 enabled full-stack application for AR-based trails, featuring wallet-based authentication and NFT based progress tracking.`,
         ],
     },
