@@ -32,7 +32,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I’m a developer specialising in creating immersive experiences through web and AR technologies, with a focus on full-stack development using React, Next.js and Typescript. Proven track record of delivering full-stack solutions across various sectors, including brands, sports, and cultural institutions.`,
+    about: `I'm a developer specialising in creating immersive experiences through web and AR technologies, with a focus on full-stack development using React, Next.js and Typescript. Proven track record of delivering full-stack solutions across various sectors, including brands, sports, and cultural institutions.`,
 }
 
 const skills = [
@@ -56,7 +56,7 @@ const skills = [
 
 const experiences = [
     {
-        title: 'Senior Software Developer',
+        title: 'Senior AR Developer',
         company_name: 'ARCADE XR',
         icon: arcade,
         iconBg: '#3df4de',
@@ -65,11 +65,11 @@ const experiences = [
             `Enabled CI/CD pipelines through GitHub Actions, reducing time to market for new features by facilitating frequent and reliable updates.`,
             `Actively mentored 3 junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
             `Designed and implemented custom and third-party APIs for native Unity applications, focusing on content management and data operations.`,
-            `Led the architecture and development of a Next.js and Web3 enabled full-stack application for AR-based trails, featuring wallet-based authentication and NFT based progress tracking.`,
+            `Led the integration of AR experiences through Unity as a Library for existing native client applications, collaborating with external developers on plugin implementation.`,
         ],
     },
     {
-        title: 'Software Developer',
+        title: 'AR Developer',
         company_name: 'ARCADE XR',
         icon: arcade,
         iconBg: '#c2007f',
@@ -77,6 +77,7 @@ const experiences = [
         points: [
             `Developed multiplayer browser games using React and Node.js, featuring real-time functionality with WebSockets and Redis for server-authoritative actions.`,
             `Authored comprehensive documentation for projects and processes, facilitating seamless onboarding of new team members.`,
+            `Created in-house development tools in Unity utilising the MVC design pattern for AR and UI to unify the team's development process, enhancing the ability for collaboration between different developer roles.`,
             `Collaborated with design and development teams on WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
             `Embraced continuous learning across new technologies and core business strategies, crucial for the agency's initial growth and instrumental in shaping the development team.`,
         ],
