@@ -90,7 +90,7 @@ const Pointer = () => {
     const [, api] = useSphere(() => ({ type: 'Kinematic', args: [2], position: [0, 0, 0] }))
     return useFrame((state) =>
         api.position.set(
-            (state.mouse.x * viewport.width) / 2,
+            -(state.mouse.x * viewport.width) / 2,
             (state.mouse.y * viewport.height) / 2,
             0,
         ),

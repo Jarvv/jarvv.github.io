@@ -11,6 +11,7 @@ import github from './github.svg'
 import openformat from './openformat.jpg'
 import rituals from './rituals.jpg'
 import editor from './editor.png'
+import three from './three.png'
 
 export {
     logo,
@@ -26,4 +27,5 @@ export {
     openformat,
     rituals,
     editor,
+    three,
 }
