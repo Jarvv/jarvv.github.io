@@ -58,12 +58,7 @@ const Ball = ({ imgUrl }) => {
 const BallCanvas = () => {
     return (
         <div className='h-96'>
-            <Canvas
-                frameloop='demand'
-                dpr={[1, 2]}
-                gl={{ preserveDrawingBuffer: true }}
-                camera={{ position: [0, 0, -30], fov: 35 }}
-            >
+            <Canvas camera={{ position: [0, 0, -30], fov: 35 }}>
                 <Suspense fallback={<CanvasLoader />}>
                     <ambientLight intensity={0.25} />
                     <directionalLight position={[0, 0, 0.05]} />

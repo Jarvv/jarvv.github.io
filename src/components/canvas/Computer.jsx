@@ -83,7 +83,7 @@ const ComputerCanvas = () => {
             >
                 click
             </web.h1>
-            <Canvas dpr={[1, 2]} camera={{ position: [0, 0, -30], fov: 35 }}>
+            <Canvas camera={{ position: [0, 0, -30], fov: 35 }}>
                 <three.pointLight
                     position={[10, 10, 10]}
                     intensity={1.5}

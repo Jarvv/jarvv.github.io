@@ -32,7 +32,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I’m a developer with five years of experience building immersive user experiences with modern web technologies. I specialise in full-stack development with a strong focus on frontend technologies like React and Next.js with TypeScript. Eager to leverage my frontend expertise and full-stack skills in a new, challenging, and growth-oriented environment.`,
+    about: `I’m a developer with five years of experience building immersive user experiences with modern web technologies. I specialise in full-stack development with a strong focus on frontend technologies like React and Next.js with TypeScript.`,
 }
 
 const skills = [
