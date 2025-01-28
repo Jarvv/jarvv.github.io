@@ -1,10 +1,11 @@
 import React, { Suspense, useRef, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Environment, Preload, useGLTF } from '@react-three/drei'
-import * as THREE from 'three'
+import { MathUtils } from 'three'
 import { useSpring } from '@react-spring/core'
 import { a as three } from '@react-spring/three'
 import { a as web } from '@react-spring/web'
+import CanvasLoader from '../Loader'
 
 const Computer = ({ open, hinge, ...props }) => {
     const group = useRef()
@@ -12,22 +13,22 @@ const Computer = ({ open, hinge, ...props }) => {
 
     useFrame((state) => {
         const t = state.clock.getElapsedTime()
-        group.current.rotation.x = THREE.MathUtils.lerp(
+        group.current.rotation.x = MathUtils.lerp(
             group.current.rotation.x,
             open ? Math.cos(t / 10) / 10 + 0.25 : 0,
             0.1,
         )
-        group.current.rotation.y = THREE.MathUtils.lerp(
+        group.current.rotation.y = MathUtils.lerp(
             group.current.rotation.y,
             open ? Math.sin(t / 10) / 4 : 0,
             0.1,
         )
-        group.current.rotation.z = THREE.MathUtils.lerp(
+        group.current.rotation.z = MathUtils.lerp(
             group.current.rotation.z,
             open ? Math.sin(t / 10) / 10 : 0,
             0.1,
         )
-        group.current.position.y = THREE.MathUtils.lerp(
+        group.current.position.y = MathUtils.lerp(
             group.current.position.y,
             open ? (-6 + Math.sin(t)) / 2.5 : -4,
             0.1,
@@ -84,13 +85,13 @@ const ComputerCanvas = () => {
                 click
             </web.h1>
             <Canvas camera={{ position: [0, 0, -30], fov: 35 }}>
-                <three.pointLight
+                <pointLight
                     position={[10, 10, 10]}
                     intensity={1.5}
                     color={props.open.to([0, 1], ['#f0f0f0', '#d25578'])}
                 />
 
-                <Suspense fallback={null}>
+                <Suspense fallback={<CanvasLoader />}>
                     <group
                         rotation={[0, Math.PI, 0]}
                         onClick={(e) => (e.stopPropagation(), setOpen(!open))}

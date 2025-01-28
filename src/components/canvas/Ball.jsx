@@ -3,6 +3,7 @@ import * as THREE from 'three'
 import { Canvas, useThree, useFrame } from '@react-three/fiber'
 import { Decal, Float, Preload, useTexture, Environment } from '@react-three/drei'
 import { Physics, useSphere } from '@react-three/cannon'
+import { cSharp, git, nextjs, nodejs, reactjs, tailwind, typescript } from '../../assets/textures'
 
 import CanvasLoader from '../Loader'
 
@@ -64,13 +65,13 @@ const BallCanvas = () => {
                     <directionalLight position={[0, 0, 0.05]} />
                     <Physics gravity={[0, 2, 0]} iterations={10}>
                         <Pointer />
-                        <Ball imgUrl={'./textures/tech/c_sharp.png'} />
-                        <Ball imgUrl={'./textures/tech/git.png'} />
-                        <Ball imgUrl={'./textures/tech/reactjs.png'} />
-                        <Ball imgUrl={'./textures/tech/nodejs.png'} />
-                        <Ball imgUrl={'./textures/tech/tailwind.png'} />
-                        <Ball imgUrl={'./textures/tech/typescript.png'} />
-                        <Ball imgUrl={'./textures/tech/nextjs.png'} />
+                        <Ball imgUrl={cSharp} />
+                        <Ball imgUrl={git} />
+                        <Ball imgUrl={reactjs} />
+                        <Ball imgUrl={nodejs} />
+                        <Ball imgUrl={tailwind} />
+                        <Ball imgUrl={typescript} />
+                        <Ball imgUrl={nextjs} />
                     </Physics>
                     <Environment preset='city' />
                 </Suspense>

@@ -13,6 +13,8 @@
     src: url('./fonts/TitilliumWeb-Light.ttf');
 }
 
-html, body {
+html,
+body {
     height: 100%;
+    background-color: rgb(5 8 22);
 }

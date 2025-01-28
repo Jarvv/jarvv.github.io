@@ -4,11 +4,15 @@ import {
     sheffield,
     react,
     next,
-    openformat,
     rituals,
     github,
     editor,
     three,
+    readyPlayerMe,
+    gltf,
+    nodejs,
+    oneUp,
+    avatar,
 } from './assets'
 
 const navLinks = [
@@ -32,13 +36,13 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I’m a developer with five years of experience building immersive user experiences with modern web technologies. I specialise in full-stack development with a strong focus on frontend technologies like React and Next.js with TypeScript.`,
+    about: `I'm a 3D software engineer driven by a love for pushing boundaries and crafting immersive digital experiences. With expertise in Three.js, gLTF, and TypeScript, I thrive on turning ideas into captivating extended realities.`,
 }
 
 const skills = [
     {
         title: 'Full-Stack Developer',
-        icon: next,
+        icon: nodejs,
     },
     {
         title: 'Frontend Developer',
@@ -48,25 +52,52 @@ const skills = [
         title: 'Creative Web Developer',
         icon: three,
     },
+    {
+        title: '3D Software Engineer',
+        icon: gltf,
+    },
 ]
 
 const experiences = [
     {
-        title: 'Senior Software Developer',
-        company_name: 'ARCADE XR',
-        icon: arcade,
+        title: 'Senior Software Developer - Contract',
+        company_name: '1UP Studios',
+        icon: oneUp,
         iconBg: '#3df4de',
-        date: 'August 2021 - Present',
+        date: 'January 2025 - March 2025',
         points: [
-            `Enabled CI/CD pipelines through GitHub Actions, reducing time to market for new features by facilitating frequent and reliable updates.`,
-            `Actively mentored 3 junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
-            `Designed and implemented custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
+            `Developed EdTech prototypes, and web frontend in React, TypeScript, Next.js, Three.js on creative campaigns for cultural institutions.`,
+        ],
+    },
+    {
+        title: '3D Software Engineer',
+        company_name: 'Ready Player Me',
+        icon: readyPlayerMe,
+        iconBg: '#3df4de',
+        date: 'August 2024 - January 2025',
+        points: [
+            `Optimised asset and avatar build pipelines by introducing configurable LODs and adjustable quality configurations, improving actual and perceived load times with reduced file sizes and progressive loading.`,
+            `Optimised rendering performance and resource usage in legacy React Three Fiber scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
+            `Worked in a tech-art capacity with artists to define asset specifications for integrations and develop new avatar features, bridging technical and creative workflows.`,
             `Led R&D of a Web3 enabled full-stack application using Next.js for AR trails, featuring wallet-based authentication and on-chain progress tracking.`,
             `Collaborated on hosting solutions and designing server infrastructure, using AWS or Vercel depending on project requirements.`,
         ],
     },
     {
-        title: 'Software Developer',
+        title: 'Senior Augmented Reality Developer',
+        company_name: 'ARCADE XR',
+        icon: arcade,
+        iconBg: '#3df4de',
+        date: 'August 2021 - August 2024',
+        points: [
+            `Enabled CI/CD pipelines through GitHub Actions, reducing time to market for new features by facilitating frequent and reliable updates.`,
+            `Actively mentored 3 junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
+            `Designed and implemented custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
+            `Collaborated on hosting solutions and designing server infrastructure, using AWS or Vercel depending on project requirements.`,
+        ],
+    },
+    {
+        title: 'Augmented Reality Developer',
         company_name: 'ARCADE XR',
         icon: arcade,
         iconBg: '#c2007f',
@@ -92,25 +123,24 @@ const experiences = [
 
 const projects = [
     {
-        name: 'Web 2.9',
-        description:
-            'Using Web3 technologies through the OpenFormat SDK to authenticate users to a Web 2 backend via their wallet.',
+        name: 'R3F Avatar Builder',
+        description: 'An avatar builder example built with Three.js and React Three Fiber.',
         tags: [
             {
-                name: 'reactjs',
+                name: 'gLTF',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'nextjs',
+                name: 'react-three-fiber',
                 color: 'green-text-gradient',
             },
             {
-                name: 'web3',
+                name: 'React',
                 color: 'pink-text-gradient',
             },
         ],
-        image: openformat,
-        source_code_link: 'https://github.com/Jarvv/next-web2.9',
+        image: avatar,
+        source_code_link: 'https://github.com/Jarvv/r3f-avatar-builder',
         source_image: github,
     },
     {
@@ -158,7 +188,7 @@ const projects = [
         source_image: webAR,
     },
     {
-        name: 'Unity MVVM',
+        name: 'FurnituAR - Unity MVVM',
         description:
             'An example AR furniture app, demonstrating how data binding using the Model-View-ViewModel design pattern can be implemented with UI Toolkit.',
         tags: [
