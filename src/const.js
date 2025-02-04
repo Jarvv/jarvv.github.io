@@ -36,7 +36,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I'm a 3D software engineer driven by a love for pushing boundaries and crafting immersive digital experiences. With expertise in Three.js, gLTF, and TypeScript, I thrive on turning ideas into captivating extended realities.`,
+    about: `I'm a software engineer driven by a love for pushing boundaries and crafting immersive digital experiences. With expertise in Three.js, React, and TypeScript, I thrive on turning ideas into captivating extended realities.`,
 }
 
 const skills = [
@@ -60,7 +60,7 @@ const skills = [
 
 const experiences = [
     {
-        title: 'Senior Software Developer - Contract',
+        title: 'Senior Software Engineer - Fixed-Term Contract',
         company_name: '1UP Studios',
         icon: oneUp,
         iconBg: '#3df4de',
