@@ -79,8 +79,7 @@ const experiences = [
             `Optimised asset and avatar build pipelines by introducing configurable LODs and adjustable quality configurations, improving actual and perceived load times with reduced file sizes and progressive loading.`,
             `Optimised rendering performance and resource usage in legacy React Three Fiber scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
             `Worked in a tech-art capacity with artists to define asset specifications for integrations and develop new avatar features, bridging technical and creative workflows.`,
-            `Led R&D of a Web3 enabled full-stack application using Next.js for AR trails, featuring wallet-based authentication and on-chain progress tracking.`,
-            `Collaborated on hosting solutions and designing server infrastructure, using AWS or Vercel depending on project requirements.`,
+            `Enabled advanced custom glTF features, including authoring extensions for metadata, shaders and hidden surface removal through gltf-transform.`
         ],
     },
     {
