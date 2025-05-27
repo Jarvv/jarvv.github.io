@@ -4,15 +4,16 @@ import {
     sheffield,
     react,
     next,
-    rituals,
+    learningCentre,
     github,
     editor,
     three,
     readyPlayerMe,
-    gltf,
     nodejs,
     oneUp,
     avatar,
+    hundred,
+    unity,
 } from './assets'
 
 const navLinks = [
@@ -49,24 +50,24 @@ const skills = [
         icon: react,
     },
     {
-        title: 'Creative Web Developer',
-        icon: three,
+        title: 'Unity Developer',
+        icon: unity,
     },
     {
         title: '3D Software Engineer',
-        icon: gltf,
+        icon: three,
     },
 ]
 
 const experiences = [
     {
-        title: 'Senior Software Engineer - Fixed-Term Contract',
+        title: 'Senior Software Developer',
         company_name: '1UP Studios',
         icon: oneUp,
         iconBg: '#3df4de',
-        date: 'January 2025 - March 2025',
+        date: 'January 2025 - Present',
         points: [
-            `Developed EdTech prototypes, and web frontend in React, TypeScript, Next.js, Three.js on creative campaigns for cultural institutions.`,
+            `Technical lead on EdTech prototypes, developed web frontend in React, TypeScript and Three.js on creative educational campaigns for cultural institutions.`,
         ],
     },
     {
@@ -77,9 +78,9 @@ const experiences = [
         date: 'August 2024 - January 2025',
         points: [
             `Optimised asset and avatar build pipelines by introducing configurable LODs and adjustable quality configurations, improving actual and perceived load times with reduced file sizes and progressive loading.`,
-            `Optimised rendering performance and resource usage in legacy React Three Fiber scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
+            `Improved rendering performance and resource usage in legacy React Three Fiber scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
             `Worked in a tech-art capacity with artists to define asset specifications for integrations and develop new avatar features, bridging technical and creative workflows.`,
-            `Enabled advanced custom glTF features, including authoring extensions for metadata, shaders and hidden surface removal through gltf-transform.`
+            `Enabled advanced custom glTF features, including authoring extensions for metadata, shaders and hidden surface removal through gltf-transform.`,
         ],
     },
     {
@@ -89,8 +90,8 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'August 2021 - August 2024',
         points: [
-            `Enabled CI/CD pipelines through GitHub Actions, reducing time to market for new features by facilitating frequent and reliable updates.`,
-            `Actively mentored 3 junior developers, encouraging participation through code reviews and fostering a culture of continuous improvements and code ownership.`,
+            `Scoped CI/CD pipelines through GitHub Actions. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
+            `Actively mentored junior developers, encouraged participation through code reviews and fostering a culture of continuous improvement and code ownership.`,
             `Designed and implemented custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
             `Collaborated on hosting solutions and designing server infrastructure, using AWS or Vercel depending on project requirements.`,
         ],
@@ -104,8 +105,8 @@ const experiences = [
         points: [
             `Developed multiplayer browser games using the MERN stack, featuring real-time functionality with WebSockets.`,
             `Authored comprehensive documentation for projects, processes and best practices, facilitating seamless onboarding of new team members.`,
-            `Responsible for developing WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
-            `Embraced continuous learning across new technologies and core business strategies, crucial for the agency's initial growth and instrumental in shaping the development team.`,
+            `Led the development of WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
+            `Created in-house development tools in Unity utilising design patterns for AR and UI to unify the team’s development process, enhancing collaboration among developer roles.`,
         ],
     },
     {
@@ -134,7 +135,7 @@ const projects = [
                 color: 'green-text-gradient',
             },
             {
-                name: 'React',
+                name: 'react',
                 color: 'pink-text-gradient',
             },
         ],
@@ -165,9 +166,9 @@ const projects = [
         source_image: github,
     },
     {
-        name: 'The Ritual Of Sakura',
+        name: 'Keeper of Paintings: Canvas Quest',
         description:
-            'A brand activation built for an in-store popup, featuring physics, particles, states and a robust UI <-> AR event system utlising React and Three.js.',
+            'An EdTech activation built for the National Gallery, featuring physics, particles, states and a robust UI <-> AR event system utlising React and Three.js.',
         tags: [
             {
                 name: '8thWall',
@@ -178,12 +179,34 @@ const projects = [
                 color: 'green-text-gradient',
             },
             {
-                name: 'Three.js',
+                name: 'three.js',
                 color: 'pink-text-gradient',
             },
         ],
-        image: rituals,
-        source_code_link: 'https://www.8thwall.com/arcade/theritualofsakura',
+        image: learningCentre,
+        source_code_link: 'https://www.8thwall.com/1upstudios/ng-learning-centre',
+        source_image: webAR,
+    },
+    {
+        name: 'The Hundred',
+        description:
+            'A series of WebAR experiences built in Three.js, featuring a considered lighting setup for realistic material response, animation controllers for transitions and user playback, and GLSL shaders for enhanced visual effects.',
+        tags: [
+            {
+                name: 'lighting',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'animation',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'GLSL',
+                color: 'pink-text-gradient',
+            },
+        ],
+        image: hundred,
+        source_code_link: 'https://www.8thwall.com/1upstudios/thehundred',
         source_image: webAR,
     },
     {

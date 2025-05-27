@@ -8,7 +8,7 @@ import react from './reactjs.png'
 import sheffield from './sheffield.png'
 import next from './nextjs.png'
 import github from './github.svg'
-import rituals from './rituals.jpg'
+import learningCentre from './learning_centre.png'
 import editor from './editor.png'
 import three from './three.png'
 import readyPlayerMe from './ready_player_me.png'
@@ -16,6 +16,7 @@ import gltf from './gltf.png'
 import nodejs from './nodejs.png'
 import oneUp from './1up.png'
 import avatar from './avatar.png'
+import hundred from './hundred.jpeg'
 
 export {
     logo,
@@ -28,7 +29,7 @@ export {
     sheffield,
     next,
     github,
-    rituals,
+    learningCentre,
     editor,
     three,
     readyPlayerMe,
@@ -36,4 +37,5 @@ export {
     nodejs,
     oneUp,
     avatar,
+    hundred,
 }
