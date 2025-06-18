@@ -3,13 +3,6 @@
      and can be found at https://seattleowl.com/pointer.
 */
 
-const pointer = document.createElement('div')
-pointer.id = 'pointer-dot'
-const ring = document.createElement('div')
-ring.id = 'pointer-ring'
-document.body.insertBefore(pointer, document.body.children[0])
-document.body.insertBefore(ring, document.body.children[0])
-
 let mouseX = -100
 let mouseY = -100
 let ringX = -100
@@ -17,9 +10,18 @@ let ringY = -100
 let isHover = false
 let mouseDown = false
 const init_pointer = (options) => {
-    if (window.innerWidth < 768) {
+    const isMobile = window.matchMedia('(pointer: coarse)').matches
+
+    if (isMobile) {
         return // Exit the function early if on a mobile device
     }
+
+    const pointer = document.createElement('div')
+    pointer.id = 'pointer-dot'
+    const ring = document.createElement('div')
+    ring.id = 'pointer-ring'
+    document.body.insertBefore(pointer, document.body.children[0])
+    document.body.insertBefore(ring, document.body.children[0])
 
     window.onmousemove = (mouse) => {
         mouseX = mouse.clientX

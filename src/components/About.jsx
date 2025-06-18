@@ -38,8 +38,7 @@ const About = () => {
                     Introduction
                 </p>
                 <h2 className='text-pink md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'>
-                    {' '}
-                    Overview.{' '}
+                    Overview.
                 </h2>
             </motion.div>
             <div className='mt-20 flex flex-wrap gap-10 justify-center'>

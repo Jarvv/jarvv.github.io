@@ -22,17 +22,13 @@ const Contact = () => {
 
                 <div className='flex md:flex-row flex-col align-middle justify-between mt-8 gap-8'>
                     <div className='w-[50%]'>
-                        <p className='sm:text-[18px] text-[14px]uppercase tracking-wider'>
-                            Email Me At
-                        </p>
+                        <p className='sm:text-[18px] text-[14px] tracking-wider'>Email Me At</p>
                         <a href='mailto:james.harvey97@live.com'>
                             <p className='mt-6'>james.harvey97@live.com</p>
                         </a>
                     </div>
                     <div className='w-[50%]'>
-                        <p className='sm:text-[18px] text-[14px]uppercase tracking-wider'>
-                            Find Me On
-                        </p>
+                        <p className='sm:text-[18px] text-[14px] tracking-wider'>Find Me On</p>
                         <div className='flex flex-row gap-4 text-[1.5rem] text-secondary mt-4'>
                             <a href='https://www.linkedin.com/in/jamesdharvey/'>
                                 <FontAwesomeIcon icon={faLinkedin} />

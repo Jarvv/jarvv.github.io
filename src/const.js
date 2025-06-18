@@ -37,7 +37,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I'm a software engineer driven by a love for pushing boundaries and crafting immersive digital experiences. With expertise in Three.js, React, and TypeScript, I thrive on turning ideas into captivating extended realities.`,
+    about: `I'm a 3D software engineer driven by a love for pushing boundaries and crafting immersive digital experiences. With expertise in Unity, C# and Three.js, I thrive on turning ideas into captivating extended realities for web, mobile, and XR platforms.`,
 }
 
 const skills = [
@@ -66,8 +66,11 @@ const experiences = [
         icon: oneUp,
         iconBg: '#3df4de',
         date: 'January 2025 - Present',
+        headline:
+            'Currently leading full-stack web development of XR based educational experiences for brands and museums.',
         points: [
-            `Technical lead on EdTech prototypes, developed web frontend in React, TypeScript and Three.js on creative educational campaigns for cultural institutions.`,
+            `Technical lead on EdTech learning experiences, built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
+            `Led the technical direction and feature implementation of creative digital campaigns through prototyping discovery phases and development sprints.`,
         ],
     },
     {
@@ -76,6 +79,8 @@ const experiences = [
         icon: readyPlayerMe,
         iconBg: '#3df4de',
         date: 'August 2024 - January 2025',
+        headline:
+            'As part of the Avatar and Content Tech team, delivered new avatar features through backend pipelines and rendering workflows, enabling interoperable avatars across platforms with consistent performance and visual quality.',
         points: [
             `Optimised asset and avatar build pipelines by introducing configurable LODs and adjustable quality configurations, improving actual and perceived load times with reduced file sizes and progressive loading.`,
             `Improved rendering performance and resource usage in legacy React Three Fiber scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
@@ -89,11 +94,14 @@ const experiences = [
         icon: arcade,
         iconBg: '#3df4de',
         date: 'August 2021 - August 2024',
+        headline:
+            'Led delivery of XR projects and cross-platform integrations, for Unity and the web. Driving team growth and technical strategy, mentoring developers, introducing robust testing and CI/CD practices.',
         points: [
-            `Scoped CI/CD pipelines through GitHub Actions. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
-            `Actively mentored junior developers, encouraged participation through code reviews and fostering a culture of continuous improvement and code ownership.`,
-            `Designed and implemented custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
-            `Collaborated on hosting solutions and designing server infrastructure, using AWS or Vercel depending on project requirements.`,
+            `Scoped CI/CD pipelines for Unity Cloud Build using integrated testing frameworks and automated build processes. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
+            `Mentored junior developers, encouraged participation through code reviews and fostering a culture of continuous improvement and code ownership.`,
+            `Led the integration of AR experiences through Unity as a Library for existing native client applications, collaborated with external developers on plugin implementation.`,
+            `Developed AI and ML enhanced AR capabilities using OpenCV in Unity for feature-recognition from large archives in real-time and integrated ML libraries for interactive, location-based virtual mirror applications.`,
+            `Designed and integrated custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
         ],
     },
     {
@@ -102,11 +110,13 @@ const experiences = [
         icon: arcade,
         iconBg: '#c2007f',
         date: 'August 2019 - August 2021',
+        headline:
+            'Built foundational tools and practices for AR app development during early agency growth, with a focus on tooling and internal processes for efficient project delivery.',
         points: [
-            `Developed multiplayer browser games using the MERN stack, featuring real-time functionality with WebSockets.`,
-            `Authored comprehensive documentation for projects, processes and best practices, facilitating seamless onboarding of new team members.`,
-            `Led the development of WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
-            `Created in-house development tools in Unity utilising design patterns for AR and UI to unify the team’s development process, enhancing collaboration among developer roles.`,
+            `Created in-house development tools in Unity using design patterns such as MVC and MVVM for AR and UI, unifying the team’s development process and enhancing collaboration among developer roles.`,
+            `Authored comprehensive documentation for projects and processes, facilitating seamless onboarding of new team members.`,
+            `Collaborated with design and development teams on WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
+            `Embraced continuous learning across new technologies and core business strategies, crucial for the agency's initial growth and instrumental in shaping the development team.`,
         ],
     },
     {
@@ -115,8 +125,11 @@ const experiences = [
         icon: sheffield,
         iconBg: '#3df4de',
         date: 'June 2018 - September 2018',
+        headline:
+            'Worked across a multi-departmental team to create various AR/VR applications, contributing to research on how immersive technologies can aid cultural regeneration projects.',
         points: [
-            `Worked across a multi-departmental team to create various AR/VR applications, contributing to research on how immersive technologies can aid cultural regeneration projects.`,
+            `Created AR/VR applications in Unity with interactive features like gameplay mechanics, locomotion systems, and educational hotspots.`,
+            `Managed cross-platform deployment processes and optimised rendering settings ensuring best performance and fidelity across all target devices and platforms.`,
         ],
     },
 ]
