@@ -3,7 +3,6 @@ import {
     arcade,
     sheffield,
     react,
-    next,
     learningCentre,
     github,
     editor,
@@ -37,7 +36,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I'm a 3D software engineer driven by a love for pushing boundaries and crafting immersive digital experiences. With expertise in Unity, C# and Three.js, I thrive on turning ideas into captivating extended realities for web, mobile, and XR platforms.`,
+    about: `I'm a software engineer with a background in XR and real-time 3D, now focused on building platforms that deliver interactive, AI-driven experiences across web and immersive environments. Comfortable across the stack from Three.js frontends to multi-service cloud infrastructure.`,
 }
 
 const skills = [
@@ -62,15 +61,18 @@ const skills = [
 const experiences = [
     {
         title: 'Senior Software Developer',
-        company_name: '1UP Studios',
+        company_name: '1UP Studios / Dwel',
         icon: oneUp,
         iconBg: '#3df4de',
         date: 'January 2025 - Present',
         headline:
-            'Currently leading full-stack web development of XR based educational experiences for brands and museums.',
+            'Leading the technical shift from a creative studio toward Dwel: a platform for building guided interactive experiences powered by contextual AI agents across web and XR.',
         points: [
             `Technical lead on EdTech learning experiences, built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
-            `Led the technical direction and feature implementation of creative digital campaigns through prototyping discovery phases and development sprints.`,
+            `Drove technical strategy from discovery prototypes through delivery sprints, aligning stakeholders, design and engineering on scope and implementation.`,
+            `Architected a client-agnostic platform (Next.js, NestJS, FastAPI) serving both web and Unity/XR clients via shared backend services, enabling a single experience to be delivered across multiple client applications.`,
+            `Designed and managed production-grade infrastructure on AWS with containerised deployments and CI/CD via GitHub Actions, establishing a repeatable release pipeline ahead of launch.`,
+            `Mentored team members on shipping production-ready AI-enabled features within a broader product architecture.`,
         ],
     },
     {
@@ -97,8 +99,8 @@ const experiences = [
         headline:
             'Led delivery of XR projects and cross-platform integrations, for Unity and the web. Driving team growth and technical strategy, mentoring developers, introducing robust testing and CI/CD practices.',
         points: [
-            `Scoped CI/CD pipelines for Unity Cloud Build using integrated testing frameworks and automated build processes. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
-            `Mentored junior developers, encouraged participation through code reviews and fostering a culture of continuous improvement and code ownership.`,
+            `Enabled CI/CD pipelines for Unity Cloud Build using integrated testing frameworks and automated build processes. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
+            `Mentored junior developers, raised engineering standards through code review practices, fostering a culture of code ownership and continuous improvement across the team.`,
             `Led the integration of AR experiences through Unity as a Library for existing native client applications, collaborated with external developers on plugin implementation.`,
             `Developed AI and ML enhanced AR capabilities using OpenCV in Unity for feature-recognition from large archives in real-time and integrated ML libraries for interactive, location-based virtual mirror applications.`,
             `Designed and integrated custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
@@ -116,7 +118,7 @@ const experiences = [
             `Created in-house development tools in Unity using design patterns such as MVC and MVVM for AR and UI, unifying the team’s development process and enhancing collaboration among developer roles.`,
             `Authored comprehensive documentation for projects and processes, facilitating seamless onboarding of new team members.`,
             `Collaborated with design and development teams on WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
-            `Embraced continuous learning across new technologies and core business strategies, crucial for the agency's initial growth and instrumental in shaping the development team.`,
+            `Ramped up on Unity, WebXR and backend development to support project needs during early agency growth, becoming a generalist across the stack.`,
         ],
     },
     {
@@ -154,28 +156,6 @@ const projects = [
         ],
         image: avatar,
         source_code_link: 'https://github.com/Jarvv/r3f-avatar-builder',
-        source_image: github,
-    },
-    {
-        name: 'Next Product Model Viewer',
-        description:
-            'An ecommerce site built using Next.js, Prisma, Tailwind and Stripe for payments. Allowing users to upload and view 3D models to view in 3D and AR.',
-        tags: [
-            {
-                name: 'supabase',
-                color: 'blue-text-gradient',
-            },
-            {
-                name: 'prisma',
-                color: 'green-text-gradient',
-            },
-            {
-                name: 'stripe',
-                color: 'pink-text-gradient',
-            },
-        ],
-        image: next,
-        source_code_link: 'https://github.com/Jarvv/next-product-viewer',
         source_image: github,
     },
     {
@@ -223,7 +203,7 @@ const projects = [
         source_image: webAR,
     },
     {
-        name: 'FurnituAR - Unity MVVM',
+        name: 'Unity MVVM',
         description:
             'An example AR furniture app, demonstrating how data binding using the Model-View-ViewModel design pattern can be implemented with UI Toolkit.',
         tags: [
