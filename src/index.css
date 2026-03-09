@@ -50,8 +50,8 @@ a {
 }
 
 body {
-  color: var(black);
-  background-color: var(white);
+  color: #ffffff;
+  background-color: rgb(5 8 22);
 }
 
 #pointer-ring {

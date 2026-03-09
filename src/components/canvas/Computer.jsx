@@ -94,7 +94,10 @@ const ComputerCanvas = () => {
                 <Suspense fallback={<CanvasLoader />}>
                     <group
                         rotation={[0, Math.PI, 0]}
-                        onClick={(e) => (e.stopPropagation(), setOpen(!open))}
+                        onClick={(e) => {
+                            e.stopPropagation()
+                            setOpen(!open)
+                        }}
                     >
                         <Computer open={open} hinge={props.open.to([0, 1], [1.575, -0.425])} />
                     </group>

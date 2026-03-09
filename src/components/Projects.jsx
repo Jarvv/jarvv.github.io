@@ -10,16 +10,18 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
     return (
         <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
             <Tilt
-                options={{
-                    max: 45,
-                    scale: 1,
-                    speed: 450,
-                }}
+                tiltMaxAngleX={45}
+                tiltMaxAngleY={45}
+                scale={1}
+                transitionSpeed={450}
                 className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
             >
-                <div
+                <a
                     className='relative w-full h-[230px]'
-                    onClick={() => window.open(source_code_link, '_blank')}
+                    href={source_code_link}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    aria-label={`Open ${name} project link`}
                 >
                     <img
                         src={image}
@@ -36,7 +38,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                             />
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <div className='mt-5'>
                     <h3 className='text-white font-bold text-[24px]'>{name}</h3>

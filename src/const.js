@@ -13,6 +13,7 @@ import {
     avatar,
     hundred,
     unity,
+    editor2,
 } from './assets'
 
 const navLinks = [
@@ -36,7 +37,7 @@ const navLinks = [
 
 const hero = {
     name: 'James',
-    about: `I'm a software engineer with a background in XR and real-time 3D, now focused on building platforms that deliver interactive, AI-driven experiences across web and immersive environments. Comfortable across the stack from Three.js frontends to multi-service cloud infrastructure.`,
+    about: `I'm a software engineer with 6+ years of Unity and real-time 3D experience across AR, VR and mobile. Background spanning XR app development, avatar systems, and multi-platform deployment, with strong full-stack skills across web and cloud infrastructure.`,
 }
 
 const skills = [
@@ -68,9 +69,9 @@ const experiences = [
         headline:
             'Leading the technical shift from a creative studio toward Dwel: a platform for building guided interactive experiences powered by contextual AI agents across web and XR.',
         points: [
-            `Technical lead on EdTech learning experiences, built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
-            `Drove technical strategy from discovery prototypes through delivery sprints, aligning stakeholders, design and engineering on scope and implementation.`,
             `Architected a client-agnostic platform (Next.js, NestJS, FastAPI) serving both web and Unity/XR clients via shared backend services, enabling a single experience to be delivered across multiple client applications.`,
+            `Technical lead on EdTech learning experiences, built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
+            `Drove technical strategy from discovery through delivery, leading standups and sprint reviews alongside the project manager, aligning engineering, design and stakeholders on scope and priorities.`,
             `Designed and managed production-grade infrastructure on AWS with containerised deployments and CI/CD via GitHub Actions, establishing a repeatable release pipeline ahead of launch.`,
             `Mentored team members on shipping production-ready AI-enabled features within a broader product architecture.`,
         ],
@@ -82,12 +83,12 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'August 2024 - January 2025',
         headline:
-            'As part of the Avatar and Content Tech team, delivered new avatar features through backend pipelines and rendering workflows, enabling interoperable avatars across platforms with consistent performance and visual quality.',
+            'As part of the Avatar and Content Tech team, shipped avatar features and pipeline improvements, enabling interoperable avatars across platforms with consistent performance and visual quality.',
         points: [
             `Optimised asset and avatar build pipelines by introducing configurable LODs and adjustable quality configurations, improving actual and perceived load times with reduced file sizes and progressive loading.`,
-            `Improved rendering performance and resource usage in legacy React Three Fiber scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
+            `Defined cross-platform API contracts and glTF extension schemas consumed by Unity clients, ensuring consistent avatar rendering and metadata parsing across platforms.`,
+            `Improved rendering performance and resource usage in real-time 3D scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
             `Worked in a tech-art capacity with artists to define asset specifications for integrations and develop new avatar features, bridging technical and creative workflows.`,
-            `Enabled advanced custom glTF features, including authoring extensions for metadata, shaders and hidden surface removal through gltf-transform.`,
         ],
     },
     {
@@ -97,13 +98,13 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'August 2021 - August 2024',
         headline:
-            'Led delivery of XR projects and cross-platform integrations, for Unity and the web. Driving team growth and technical strategy, mentoring developers, introducing robust testing and CI/CD practices.',
+            'Led delivery of XR projects and cross-platform integrations for Unity and the web, targeting iOS and Android across a range of mobile hardware capabilities, while driving team growth and technical strategy.',
         points: [
-            `Enabled CI/CD pipelines for Unity Cloud Build using integrated testing frameworks and automated build processes. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
+            `Architected Unity client applications using MVVM patterns with UI Toolkit and dependency injection, collaborating with designers on a shared Figma component set mapped directly to UI Toolkit components.`,
+            `Led the integration of AR experiences into native client applications using Unity as a Library, implementing remote asset delivery to enable over-the-air content updates.`,
+            `Established CI/CD pipelines using Unity Cloud Build, Unity Gaming Services and GitHub Actions, improving build reliability and deployment cadence across mobile and XR targets.`,
             `Mentored junior developers, raised engineering standards through code review practices, fostering a culture of code ownership and continuous improvement across the team.`,
-            `Led the integration of AR experiences through Unity as a Library for existing native client applications, collaborated with external developers on plugin implementation.`,
-            `Developed AI and ML enhanced AR capabilities using OpenCV in Unity for feature-recognition from large archives in real-time and integrated ML libraries for interactive, location-based virtual mirror applications.`,
-            `Designed and integrated custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
+            `Developed AI and ML enhanced AR capabilities using OpenCV in Unity for real-time feature recognition from large archives, and integrated ML libraries for interactive, location-based applications.`,
         ],
     },
     {
@@ -115,10 +116,10 @@ const experiences = [
         headline:
             'Built foundational tools and practices for AR app development during early agency growth, with a focus on tooling and internal processes for efficient project delivery.',
         points: [
-            `Created in-house development tools in Unity using design patterns such as MVC and MVVM for AR and UI, unifying the team’s development process and enhancing collaboration among developer roles.`,
-            `Authored comprehensive documentation for projects and processes, facilitating seamless onboarding of new team members.`,
-            `Collaborated with design and development teams on WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
-            `Ramped up on Unity, WebXR and backend development to support project needs during early agency growth, becoming a generalist across the stack.`,
+            `Built AR applications in Unity using AR Foundation, developing internal tooling and reusable workflows that became the team's standard approach to project delivery.`,
+            `Profiled and optimised AR experiences for mobile using Unity Profiler, managing memory usage and GPU performance to maintain stable frame rates across a range of devices.`,
+            `Authored project documentation and onboarding guides, enabling the team to scale as the agency grew.`,
+            `Ramped up across Unity, XR and full-stack development during early agency growth, becoming a generalist across the stack.`,
         ],
     },
     {
@@ -177,13 +178,14 @@ const projects = [
             },
         ],
         image: learningCentre,
-        source_code_link: 'https://www.8thwall.com/1upstudios/ng-learning-centre',
+        source_code_link:
+            'https://www.1upstudios.tech/blog/canvas-quest-launches-at-the-national-gallery',
         source_image: webAR,
     },
     {
         name: 'The Hundred',
         description:
-            'A series of WebAR experiences built in Three.js, featuring a considered lighting setup for realistic material response, animation controllers for transitions and user playback, and GLSL shaders for enhanced visual effects.',
+            'A series of AR experiences built in Three.js and Unity, featuring a considered lighting setup for realistic material response, animation controllers for transitions and user playback, and GLSL shaders for enhanced visual effects.',
         tags: [
             {
                 name: 'lighting',
@@ -199,7 +201,8 @@ const projects = [
             },
         ],
         image: hundred,
-        source_code_link: 'https://www.8thwall.com/1upstudios/thehundred',
+        source_code_link:
+            'https://www.skysports.com/the-hundred/news/36890/12371669/the-hundred-play-with-avatars-of-crickets-top-players-with-sky-sports-amazing-ar-technology',
         source_image: webAR,
     },
     {
@@ -208,11 +211,33 @@ const projects = [
             'An example AR furniture app, demonstrating how data binding using the Model-View-ViewModel design pattern can be implemented with UI Toolkit.',
         tags: [
             {
+                name: 'ui-toolkit',
+                color: 'blue-text-gradient',
+            },
+            {
+                name: 'mvvm',
+                color: 'green-text-gradient',
+            },
+            {
+                name: 'ar-foundation',
+                color: 'pink-text-gradient',
+            },
+        ],
+        image: editor,
+        source_code_link: 'https://github.com/Jarvv/UI-Toolkit-MVVM',
+        source_image: github,
+    },
+    {
+        name: 'DI MOBA',
+        description:
+            'Creep & turret system built with VContainer DI, demonstrating Strategy, Factory, Object Pool, and Observer patterns with feature-based architecture, assembly-enforced boundaries, and full unit test coverage.',
+        tags: [
+            {
                 name: 'unity',
                 color: 'blue-text-gradient',
             },
             {
-                name: 'c_sharp',
+                name: 'vcontainer',
                 color: 'green-text-gradient',
             },
             {
@@ -220,8 +245,8 @@ const projects = [
                 color: 'pink-text-gradient',
             },
         ],
-        image: editor,
-        source_code_link: 'https://github.com/Jarvv/UI-Toolkit-MVVM',
+        image: editor2,
+        source_code_link: 'https://github.com/Jarvv/DI-Moba',
         source_image: github,
     },
 ]
