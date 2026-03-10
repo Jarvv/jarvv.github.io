@@ -55,7 +55,7 @@ const Experience = () => {
         <>
             <motion.div variants={textVariant()}>
                 <p className='sm:text-lg text-sm text-secondary uppercase tracking-wider'>
-                    What I have done so far
+                    What I've done so far
                 </p>
                 <h2 className='text-pink md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]'>
                     Work Experience.

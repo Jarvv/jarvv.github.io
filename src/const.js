@@ -36,8 +36,7 @@ const navLinks = [
 ]
 
 const hero = {
-    name: 'James',
-    about: `I'm a software engineer with 6+ years of Unity and real-time 3D experience across AR, VR and mobile. Background spanning XR app development, avatar systems, and multi-platform deployment, with strong full-stack skills across web and cloud infrastructure.`,
+    about: `I'm a software engineer with 6+ years of Unity and real-time 3D experience across AR, VR and mobile. My background spans XR app development, avatar systems, and multi-platform deployment, with strong full-stack skills across web and cloud infrastructure.`,
 }
 
 const skills = [
@@ -70,7 +69,7 @@ const experiences = [
             'Leading the technical shift from a creative studio toward Dwel: a platform for building guided interactive experiences powered by contextual AI agents across web and XR.',
         points: [
             `Architected a client-agnostic platform (Next.js, NestJS, FastAPI) serving both web and Unity/XR clients via shared backend services, enabling a single experience to be delivered across multiple client applications.`,
-            `Technical lead on EdTech learning experiences, built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
+            `Technical lead on EdTech learning experiences; built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
             `Drove technical strategy from discovery through delivery, leading standups and sprint reviews alongside the project manager, aligning engineering, design and stakeholders on scope and priorities.`,
             `Designed and managed production-grade infrastructure on AWS with containerised deployments and CI/CD via GitHub Actions, establishing a repeatable release pipeline ahead of launch.`,
             `Mentored team members on shipping production-ready AI-enabled features within a broader product architecture.`,
@@ -132,7 +131,7 @@ const experiences = [
             'Worked across a multi-departmental team to create various AR/VR applications, contributing to research on how immersive technologies can aid cultural regeneration projects.',
         points: [
             `Created AR/VR applications in Unity with interactive features like gameplay mechanics, locomotion systems, and educational hotspots.`,
-            `Managed cross-platform deployment processes and optimised rendering settings ensuring best performance and fidelity across all target devices and platforms.`,
+            `Managed cross-platform deployment processes and optimised rendering settings, ensuring the best performance and fidelity across all target devices and platforms.`,
         ],
     },
 ]
@@ -162,7 +161,7 @@ const projects = [
     {
         name: 'Keeper of Paintings: Canvas Quest',
         description:
-            'An EdTech activation built for the National Gallery, featuring physics, particles, states and a robust UI <-> AR event system utlising React and Three.js.',
+            'An EdTech activation built for the National Gallery, featuring physics, particles, states and a robust UI <-> AR event system utilising React and Three.js.',
         tags: [
             {
                 name: '8thWall',
