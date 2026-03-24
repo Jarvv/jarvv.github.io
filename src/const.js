@@ -36,7 +36,7 @@ const navLinks = [
 ]
 
 const hero = {
-    about: `I'm a software engineer with 6+ years of Unity and real-time 3D experience across AR, VR and mobile. My background spans XR app development, avatar systems, and multi-platform deployment, with strong full-stack skills across web and cloud infrastructure.`,
+    about: `I'm a software engineer with a background in interactive and real-time applications, now focused on building platforms that deliver AI-driven experiences across web and mobile. I'm comfortable across the stack from React and Three.js frontends to multi-service cloud infrastructure.`,
 }
 
 const skills = [
@@ -66,11 +66,11 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'January 2025 - Present',
         headline:
-            'Leading the technical shift from a creative studio toward Dwel: a platform for building guided interactive experiences powered by contextual AI agents across web and XR.',
+            'Leading the technical shift from a creative studio toward Dwel: a platform for building guided interactive experiences powered by contextual AI agents across web and mobile.',
         points: [
-            `Architected a client-agnostic platform (Next.js, NestJS, FastAPI) serving both web and Unity/XR clients via shared backend services, enabling a single experience to be delivered across multiple client applications.`,
-            `Technical lead on EdTech learning experiences; built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
-            `Drove technical strategy from discovery through delivery, leading standups and sprint reviews alongside the project manager, aligning engineering, design and stakeholders on scope and priorities.`,
+            `Technical lead on EdTech learning experiences, built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
+            `Drove technical strategy from discovery prototypes through delivery sprints, aligning stakeholders, design and engineering on scope and implementation.`,
+            `Architected a client-agnostic platform (Next.js, NestJS, FastAPI) serving both web and mobile clients via shared backend services, enabling a single experience to be delivered across multiple client applications.`,
             `Designed and managed production-grade infrastructure on AWS with containerised deployments and CI/CD via GitHub Actions, establishing a repeatable release pipeline ahead of launch.`,
             `Mentored team members on shipping production-ready AI-enabled features within a broader product architecture.`,
         ],
@@ -82,12 +82,12 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'August 2024 - January 2025',
         headline:
-            'As part of the Avatar and Content Tech team, shipped avatar features and pipeline improvements, enabling interoperable avatars across platforms with consistent performance and visual quality.',
+            'As part of the Avatar and Content Tech team, shipped features across NestJS backend services and web rendering workflows, improving cross-platform interoperability and performance.',
         points: [
-            `Optimised asset and avatar build pipelines by introducing configurable LODs and adjustable quality configurations, improving actual and perceived load times with reduced file sizes and progressive loading.`,
-            `Defined cross-platform API contracts and glTF extension schemas consumed by Unity clients, ensuring consistent avatar rendering and metadata parsing across platforms.`,
-            `Improved rendering performance and resource usage in real-time 3D scenes by resolving memory leaks, managing resource disposal, and implementing efficient GPU optimisation techniques.`,
-            `Worked in a tech-art capacity with artists to define asset specifications for integrations and develop new avatar features, bridging technical and creative workflows.`,
+            `Optimised backend build pipelines by introducing configurable quality tiers and progressive loading strategies, reducing payload sizes and improving perceived load times.`,
+            `Defined cross-platform API contracts and data schemas consumed by multiple client applications, ensuring consistent data parsing and rendering behaviour across platforms.`,
+            `Worked across disciplines with artists to define specifications for new features, bridging technical and creative workflows.`,
+            `Improved performance and resource usage in existing React-based web applications by resolving memory leaks, managing resource disposal, and implementing efficient rendering techniques.`,
         ],
     },
     {
@@ -95,15 +95,15 @@ const experiences = [
         company_name: 'ARCADE XR',
         icon: arcade,
         iconBg: '#3df4de',
-        date: 'August 2021 - August 2024',
+        date: 'July 2022 - August 2024',
         headline:
-            'Led delivery of XR projects and cross-platform integrations for Unity and the web, targeting iOS and Android across a range of mobile hardware capabilities, while driving team growth and technical strategy.',
+            'Led delivery of web and mobile projects for agency clients, while driving team growth and technical strategy, mentoring developers and introducing testing and CI/CD practices.',
         points: [
-            `Architected Unity client applications using MVVM patterns with UI Toolkit and dependency injection, collaborating with designers on a shared Figma component set mapped directly to UI Toolkit components.`,
-            `Led the integration of AR experiences into native client applications using Unity as a Library, implementing remote asset delivery to enable over-the-air content updates.`,
-            `Established CI/CD pipelines using Unity Cloud Build, Unity Gaming Services and GitHub Actions, improving build reliability and deployment cadence across mobile and XR targets.`,
+            `Established CI/CD pipelines for GitHub Actions using testing frameworks and automated build processes. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
             `Mentored junior developers, raised engineering standards through code review practices, fostering a culture of code ownership and continuous improvement across the team.`,
-            `Developed AI and ML enhanced AR capabilities using OpenCV in Unity for real-time feature recognition from large archives, and integrated ML libraries for interactive, location-based applications.`,
+            `Led integration of interactive features into existing native client applications, collaborating with external development teams on plugin architecture and implementation.`,
+            `Designed and integrated custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
+            `Developed ML-enhanced application features using OpenCV for real-time feature recognition from large datasets, and integrated ML libraries for interactive, context-aware applications.`,
         ],
     },
     {
@@ -111,14 +111,14 @@ const experiences = [
         company_name: 'ARCADE XR',
         icon: arcade,
         iconBg: '#c2007f',
-        date: 'August 2019 - August 2021',
+        date: 'August 2019 - July 2022',
         headline:
-            'Built foundational tools and practices for AR app development during early agency growth, with a focus on tooling and internal processes for efficient project delivery.',
+            'Built foundational tools and practices for application development during early agency growth, with a focus on tooling, internal processes and client-facing web applications.',
         points: [
-            `Built AR applications in Unity using AR Foundation, developing internal tooling and reusable workflows that became the team's standard approach to project delivery.`,
-            `Profiled and optimised AR experiences for mobile using Unity Profiler, managing memory usage and GPU performance to maintain stable frame rates across a range of devices.`,
-            `Authored project documentation and onboarding guides, enabling the team to scale as the agency grew.`,
-            `Ramped up across Unity, XR and full-stack development during early agency growth, becoming a generalist across the stack.`,
+            `Developed multiplayer web applications using the MERN stack, featuring real-time functionality with WebSockets.`,
+            `Authored comprehensive documentation for projects and processes, facilitating seamless onboarding of new team members.`,
+            `Collaborated with design and development teams on WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
+            `Ramped up across frontend, backend and infrastructure to support project needs during early agency growth, becoming a generalist across the stack.`,
         ],
     },
     {
