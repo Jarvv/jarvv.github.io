@@ -36,7 +36,7 @@ const navLinks = [
 ]
 
 const hero = {
-    about: `I'm a software engineer with a background in interactive and real-time applications, now focused on building platforms that deliver AI-driven experiences across web and mobile. I'm comfortable across the stack from React and Three.js frontends to multi-service cloud infrastructure.`,
+    about: `I'm a software engineer with a background in interactive and real-time applications, now focused on building platforms that deliver AI-driven experiences across web and mobile. Experienced across the stack from React and Three.js frontends to multi-service cloud infrastructure.`,
 }
 
 const skills = [
@@ -61,18 +61,17 @@ const skills = [
 const experiences = [
     {
         title: 'Senior Software Developer',
-        company_name: '1UP Studios / Dwel',
+        company_name: '1UP Studios',
         icon: oneUp,
         iconBg: '#3df4de',
         date: 'January 2025 - Present',
         headline:
-            'Leading the technical shift from a creative studio toward Dwel: a platform for building guided interactive experiences powered by contextual AI agents across web and mobile.',
+            'Leading the technical shift from creative studio delivery toward a product platform for AI-powered interactive experiences.',
         points: [
-            `Technical lead on EdTech learning experiences, built web frontends in React, TypeScript and Three.js on educational campaigns for cultural institutions.`,
-            `Drove technical strategy from discovery prototypes through delivery sprints, aligning stakeholders, design and engineering on scope and implementation.`,
-            `Architected a client-agnostic platform (Next.js, NestJS, FastAPI) serving both web and mobile clients via shared backend services, enabling a single experience to be delivered across multiple client applications.`,
-            `Designed and managed production-grade infrastructure on AWS with containerised deployments and CI/CD via GitHub Actions, establishing a repeatable release pipeline ahead of launch.`,
-            `Mentored team members on shipping production-ready AI-enabled features within a broader product architecture.`,
+            `Led technical direction across client delivery and product development, aligning stakeholders, design and engineering on architecture, scope and implementation.`,
+            `Architected a multi-service platform using React, Next.js, NestJS and FastAPI to support shared experiences across web and mobile clients.`,
+            `Designed and managed AWS infrastructure and containerised deployments, establishing reliable delivery workflows across product and client work.`,
+            `Built and shipped AI platform features, including real-time voice interactions powered by ASR, TTS and LLM services.`,
         ],
     },
     {
@@ -82,12 +81,12 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'August 2024 - January 2025',
         headline:
-            'As part of the Avatar and Content Tech team, shipped features across NestJS backend services and web rendering workflows, improving cross-platform interoperability and performance.',
+            'Shipped features across NestJS backend services and web rendering workflows for a cross-platform avatar delivery pipeline.',
         points: [
-            `Optimised backend build pipelines by introducing configurable quality tiers and progressive loading strategies, reducing payload sizes and improving perceived load times.`,
-            `Defined cross-platform API contracts and data schemas consumed by multiple client applications, ensuring consistent data parsing and rendering behaviour across platforms.`,
-            `Worked across disciplines with artists to define specifications for new features, bridging technical and creative workflows.`,
-            `Improved performance and resource usage in existing React-based web applications by resolving memory leaks, managing resource disposal, and implementing efficient rendering techniques.`,
+            `Optimised avatar build pipelines through configurable quality tiers and progressive loading, reducing payload sizes and improving load times across consuming applications.`,
+            `Defined API contracts and shared data schemas consumed by multiple client applications, improving consistency in cross-platform data handling.`,
+            `Collaborated with artists and engineers to define asset specifications and develop new features, bridging technical and creative workflows.`,
+            `Improved performance and memory usage in Three.js and React Three Fiber web applications by resolving resource leaks and implementing more efficient rendering patterns.`,
         ],
     },
     {
@@ -97,13 +96,11 @@ const experiences = [
         iconBg: '#3df4de',
         date: 'July 2022 - August 2024',
         headline:
-            'Led delivery of web and mobile projects for agency clients, while driving team growth and technical strategy, mentoring developers and introducing testing and CI/CD practices.',
+            'Led delivery of web and mobile client projects while driving technical standards and engineering practices across the team.',
         points: [
-            `Established CI/CD pipelines for GitHub Actions using testing frameworks and automated build processes. Improved code quality and deployment efficiency through frequent and reliable app updates.`,
-            `Mentored junior developers, raised engineering standards through code review practices, fostering a culture of code ownership and continuous improvement across the team.`,
-            `Led integration of interactive features into existing native client applications, collaborating with external development teams on plugin architecture and implementation.`,
-            `Designed and integrated custom RESTful and third-party APIs for native apps, focusing on content management and data operations.`,
-            `Developed ML-enhanced application features using OpenCV for real-time feature recognition from large datasets, and integrated ML libraries for interactive, context-aware applications.`,
+            `Established CI/CD pipelines, automated testing and build processes, improving release reliability and deployment cadence.`,
+            `Mentored junior developers through structured code reviews, improving code quality and building stronger ownership practices.`,
+            `Designed and integrated custom RESTful and third-party APIs for native applications, supporting content management and data operations.`,
         ],
     },
     {
@@ -115,10 +112,9 @@ const experiences = [
         headline:
             'Built foundational tools and practices for application development during early agency growth, with a focus on tooling, internal processes and client-facing web applications.',
         points: [
-            `Developed multiplayer web applications using the MERN stack, featuring real-time functionality with WebSockets.`,
-            `Authored comprehensive documentation for projects and processes, facilitating seamless onboarding of new team members.`,
-            `Collaborated with design and development teams on WebAR projects for brand activations, using React and Three.js to create engaging user experiences.`,
-            `Ramped up across frontend, backend and infrastructure to support project needs during early agency growth, becoming a generalist across the stack.`,
+            `Developed multiplayer web applications using the MERN stack, including real-time features over WebSockets.`,
+            `Built client-facing web experiences in React and Three.js in collaboration with design and development teams.`,
+            `Worked across frontend, backend and infrastructure to support project delivery, becoming a generalist across the stack.`,
         ],
     },
     {
