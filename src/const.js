@@ -68,10 +68,11 @@ const experiences = [
         headline:
             'Leading the technical shift from creative studio delivery toward a product platform for AI-powered interactive experiences.',
         points: [
+            `Designed and built platform architecture across Next.js, NestJS and FastAPI services, creating a scalable foundation for product and client delivery.`,
+            `Developed and shipped real-time conversational voice AI with multi-user session support.`,
+            `Established AWS infrastructure and containerised deployment workflows for the platform, enabling reliable delivery from development through to production.`,
+            `Delivered educational projects for cultural institution clients, building web frontends in React, TypeScript and Three.js from prototype through to release.`,
             `Led technical direction across client delivery and product development, aligning stakeholders, design and engineering on architecture, scope and implementation.`,
-            `Architected a multi-service platform using React, Next.js, NestJS and FastAPI to support shared experiences across web and mobile clients.`,
-            `Designed and managed AWS infrastructure and containerised deployments, establishing reliable delivery workflows across product and client work.`,
-            `Built and shipped AI platform features, including real-time voice interactions powered by ASR, TTS and LLM services.`,
         ],
     },
     {
@@ -83,10 +84,11 @@ const experiences = [
         headline:
             'Shipped features across NestJS backend services and web rendering workflows for a cross-platform avatar delivery pipeline.',
         points: [
-            `Optimised avatar build pipelines through configurable quality tiers and progressive loading, reducing payload sizes and improving load times across consuming applications.`,
-            `Defined API contracts and shared data schemas consumed by multiple client applications, improving consistency in cross-platform data handling.`,
-            `Collaborated with artists and engineers to define asset specifications and develop new features, bridging technical and creative workflows.`,
-            `Improved performance and memory usage in Three.js and React Three Fiber web applications by resolving resource leaks and implementing more efficient rendering patterns.`,
+            `Tracked down resource leaks in Three.js and React Three Fiber scenes that were degrading mobile performance over time, reworking disposal and rendering patterns to stabilise memory usage.`,
+            `Authored custom glTF extensions using gltf-transform for metadata, shaders and hidden surface removal, solving asset rendering issues the existing pipeline couldn't handle.`,
+            `Implemented tiered LODs and progressive loading in the avatar build pipeline, reducing file sizes and cutting load times during asset switching.`,
+            `Defined API contracts and shared data schemas across multiple client applications, improving consistency so avatars rendered the same way regardless of platform.`,
+            `Partnered with non-engineering stakeholders to turn requirements into workable technical plans for new asset integrations.`,
         ],
     },
     {
@@ -98,9 +100,10 @@ const experiences = [
         headline:
             'Led delivery of web and mobile client projects while driving technical standards and engineering practices across the team.',
         points: [
-            `Established CI/CD pipelines, automated testing and build processes, improving release reliability and deployment cadence.`,
-            `Mentored junior developers through structured code reviews, improving code quality and building stronger ownership practices.`,
-            `Designed and integrated custom RESTful and third-party APIs for native applications, supporting content management and data operations.`,
+            `Established CI/CD pipelines with automated testing, reducing manual release work and improving delivery reliability.`,
+            `Mentored junior developers through structured code reviews, raising code quality and encouraging developers to take ownership of their work.`,
+            `Created an internal Unity SDK for AR and UI development, improving consistency across projects and speeding up client delivery.`,
+            `Led integration of AR into an existing native client app with addressable asset delivery, allowing new content to ship without requiring a full app release.`,
         ],
     },
     {
@@ -112,9 +115,10 @@ const experiences = [
         headline:
             'Built foundational tools and practices for application development during early agency growth, with a focus on tooling, internal processes and client-facing web applications.',
         points: [
-            `Developed multiplayer web applications using the MERN stack, including real-time features over WebSockets.`,
-            `Built client-facing web experiences in React and Three.js in collaboration with design and development teams.`,
-            `Worked across frontend, backend and infrastructure to support project delivery, becoming a generalist across the stack.`,
+            `Developed multiplayer web applications for client projects using the MERN stack, including real-time features over WebSockets.`,
+            `Delivered WebAR experiences for brand activations in React and Three.js, collaborating with design teams on interactive campaigns.`,
+            `Authored project and process documentation that improved onboarding and made handovers between developers more efficient.`,
+            `Developed a dynamic recognition system for frequently changing content, enabling the application to scale beyond static reference-based approaches.`,
         ],
     },
     {
@@ -126,8 +130,8 @@ const experiences = [
         headline:
             'Worked across a multi-departmental team to create various AR/VR applications, contributing to research on how immersive technologies can aid cultural regeneration projects.',
         points: [
-            `Created AR/VR applications in Unity with interactive features like gameplay mechanics, locomotion systems, and educational hotspots.`,
-            `Managed cross-platform deployment processes and optimised rendering settings, ensuring the best performance and fidelity across all target devices and platforms.`,
+            `Developed AR and VR applications in Unity with gameplay mechanics, locomotion systems and educational features for public-facing installations.`,
+            `Managed cross-platform deployment and optimised rendering for consistent performance across target devices.`,
         ],
     },
 ]
