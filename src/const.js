@@ -36,7 +36,8 @@ const navLinks = [
 ]
 
 const hero = {
-    about: `I'm a software engineer with a background in interactive and real-time applications, now focused on building platforms that deliver AI-driven experiences across web and mobile. Experienced across the stack from React and Three.js frontends to multi-service cloud infrastructure.`,
+    name: 'James',
+    about: `I'm a software engineer specialising in real-time 3D and interactive applications across web and XR. Six years shipping across TypeScript, Three.js, Unity/C# and AWS, taking products from architecture to production.`,
 }
 
 const skills = [
@@ -64,12 +65,12 @@ const experiences = [
         company_name: '1UP Studios',
         icon: oneUp,
         iconBg: '#3df4de',
-        date: 'January 2025 - Present',
+        date: 'January 2025 - May 2026',
         headline:
             'Leading the technical shift from creative studio delivery toward a product platform for AI-powered interactive experiences.',
         points: [
             `Designed and built platform architecture across Next.js, NestJS and FastAPI services, creating a scalable foundation for product and client delivery.`,
-            `Developed and shipped real-time conversational voice AI with multi-user session support.`,
+            `Built a Unity client for the platform's conversational AI, managing real-time microphone capture and audio playback, WebSocket session sync across multiple users, and metadata alignment for response timing.`,
             `Established AWS infrastructure and containerised deployment workflows for the platform, enabling reliable delivery from development through to production.`,
             `Delivered educational projects for cultural institution clients, building web frontends in React, TypeScript and Three.js from prototype through to release.`,
             `Led technical direction across client delivery and product development, aligning stakeholders, design and engineering on architecture, scope and implementation.`,
@@ -93,7 +94,7 @@ const experiences = [
     },
     {
         title: 'Senior Augmented Reality Developer',
-        company_name: 'ARCADE XR',
+        company_name: '1UP Studios',
         icon: arcade,
         iconBg: '#3df4de',
         date: 'July 2022 - August 2024',
@@ -104,16 +105,17 @@ const experiences = [
             `Mentored junior developers through structured code reviews, raising code quality and encouraging developers to take ownership of their work.`,
             `Created an internal Unity SDK for AR and UI development, improving consistency across projects and speeding up client delivery.`,
             `Led integration of AR into an existing native client app with addressable asset delivery, allowing new content to ship without requiring a full app release.`,
+            `Architected Unity client applications using MVVM patterns with UI Toolkit and dependency injection, collaborating with designers on a shared Figma component set mapped directly to UI Toolkit components.`,
         ],
     },
     {
         title: 'Augmented Reality Developer',
-        company_name: 'ARCADE XR',
+        company_name: '1UP Studios',
         icon: arcade,
         iconBg: '#c2007f',
         date: 'August 2019 - July 2022',
         headline:
-            'Built foundational tools and practices for application development during early agency growth, with a focus on tooling, internal processes and client-facing web applications.',
+            'Established foundational tooling and workflows for AR development during early agency growth, improving consistency and delivery across the team.',
         points: [
             `Developed multiplayer web applications for client projects using the MERN stack, including real-time features over WebSockets.`,
             `Delivered WebAR experiences for brand activations in React and Three.js, collaborating with design teams on interactive campaigns.`,
